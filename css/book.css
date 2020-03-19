@@ -1,0 +1,43 @@
+.wrapper {
+	max-width: 600px;
+	}
+	.grid {
+				grid-gap: 1em;
+				margin: 0 0 2em 0;
+
+			}
+			.grid div {
+				background-color:rgba(0,0,0,0.1);
+			}
+
+			.nice-image {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+
+			.book {
+				margin-top:2em;
+			}
+
+			.book h2 {
+				font-family: 'Open Sans', sans-serif;
+			}
+			.book-nav {
+				text-align: center;
+			}
+
+			.credits {
+				margin-left: 1em;
+			}
+
+			.book-nav a{
+				background-color: transparent;
+			}
+
+			.book.width-12-12{
+				background color: #000;
+				color: #d6d6d6;
+			}
+
+		

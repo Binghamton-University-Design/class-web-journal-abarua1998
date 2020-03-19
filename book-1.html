@@ -7,50 +7,13 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/grid-utils.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/book.css">
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:300,700,700i&display=fallback" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="js/main.js"></script>
-
-		<style>
-			.grid {
-				grid-gap: 1em;
-				margin: 0 0 2em 0;
-
-			}
-			.grid div {
-				background-color:rgba(0,0,0,0.1);
-			}
-			.book {
-				margin-top:2em;
-			}
-			.book h2 {
-				font-family: 'Open Sans', sans-serif;
-			}
-			.book-nav {
-				text-align: center;
-			}
-
-			.book-nav img {
-				width: 25%;
-			}
-
-			.book-credits {
-				margin-left: 1em;
-			}
-
-			.book-nav a{
-				background-color: transparent;
-			}
-
-			.book.width-12-12{
-				background color: #000;
-				color: #d6d6d6;
-			}
-
-		</style>
 
 	</head>
 
@@ -62,8 +25,6 @@
 
 		<div class="wrapper">
 
-			
-
 			<div class="grid book">
 
 				<div class="width-12-12-m width-12-12">
@@ -72,8 +33,11 @@
 
 				<div class="width-2-12-m width-2-12">
 
-					<div class="flex content">
-						<div class="book-nav vertically-centered"><</div>
+					<div class="flex-content">
+						<div class="book-nav vertically-centered">
+							<a href="Riddle_Book.html"> <img src="images/arrow-left.png" /></a>
+							
+						</div>
 					</div>
 
 					
@@ -81,27 +45,30 @@
 				
 				<div class="width-8-12-m width-8-12">
 
-					<img class="r-image" src="Book-images/frontcover.png" />
+					<img class="nice-image" src="Book-images/covernames.png" title="Cover Names"/>
 
 				</div>
 				
 				<div class="width-2-12-m width-2-12">
 
-					<div class="flex content">
-						<div class="book-nav vertically-centered">></div>
+					<div class="flex-content">
+						<div class="book-nav vertically-centered">
+							<a href="book-2.html"> <img src="images/arrow-right.png" /></a>
+								
+							</div>
 					</div>
 					
 				</div>
 
 				<div class="width-12-12-m width-12-12">
-					credits
+					<p class="credits">ARTS 412 2020 | Riddle Me This</p>
 				</div>
 
 			</div>
 		</div>
 
 		<div id="footer">
-			<p>©2020 Firstname Lastname | Binghamton University</p>
+			<p>©2020 Anushna Barua | Binghamton University</p>
 		</div>
 
 	</body>
